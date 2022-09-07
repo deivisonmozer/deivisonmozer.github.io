@@ -1,0 +1,75 @@
+
+body{
+    background-image: url("background.png");
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+#banner1{
+    background-image: url("bannerbg.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    text-align: center;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 24pt;
+    text-shadow: 3px 3px #999;
+}
+
+#container1{
+    width: 830px;
+    margin: auto;
+    border-radius: 20px;
+    border:4px solid gray;
+}
+
+#overall{
+    background-image: url("rbg.png");
+    background-repeat: repeat-x;
+    font-size: 48pt;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    color:red;
+    height: 83px;
+    vertical-align: top;
+}
+
+#bordered1{
+    border-top-left-radius: 19px;
+}
+
+#bordered2{
+    border-top-right-radius: 20px;
+}
+
+#overview{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    float:right;
+    background-color: #a1b963;
+}
+
+#overall1{
+    width: 70%;
+    display: inline-block;
+
+}
+
+.critic{
+    background-color: #E8DC9B;
+    border:2px solid gray;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.criticContainer{
+    margin: 3px;
+    vertical-align: top;
+    width: 250px;
+    display: inline-block;
+}
