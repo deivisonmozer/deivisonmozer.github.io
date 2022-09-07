@@ -1,0 +1,36 @@
+#title{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.headlines{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Helvetica;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.list-dot{
+    list-style-type: circle;
+}
+
+.list-decimal{
+    list-style-type: decimal;
+}
+
+.comments{
+    background-color: rgba(255, 255, 0, 0.64);
+}
+
+.copyright{
+    text-align: justify;
+}
+
+.underline{
+    order: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+}

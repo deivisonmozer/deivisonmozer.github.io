@@ -1,0 +1,22 @@
+h2{
+    color: rgb(170, 170, 255);
+    font-size: xx-large;
+    font-family: cursive ;
+}
+
+h1,h2,h3,li,p{
+    color: rgb(170, 170, 255);
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(66, 64, 64);
+}
+
+#mood{
+    display: flex ;
+}
+
+span{
+    color: yellow;
+}
