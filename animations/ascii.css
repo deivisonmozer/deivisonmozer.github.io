@@ -1,0 +1,56 @@
+body{
+    background-color: #CCCCFF;
+}
+
+#title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+#text-area{
+    grid-area: text-area;
+    height: 400px;
+    width: 90%;
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+
+#col1{
+    grid-area: col1;
+    width: fit-content;
+    border: 5px solid black;
+}
+
+#col2{
+    grid-area: col2;
+    width: fit-content;
+    border: 5px solid black;
+}
+
+#col3{
+    grid-area: col3;
+    width: fit-content;
+    border: 5px solid black;
+}
+
+#col4{
+    grid-area: col4;
+    width: fit-content;
+    border: 5px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    'text-area text-area text-area text-area' 
+    'col1 col2 col3 col4'
+    ;
+    justify-content: center;
+}
+
+#validate{
+    text-align: right;
+}
