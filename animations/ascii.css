@@ -15,6 +15,7 @@ body{
     width: 90%;
     font-size: 12pt;
     font-weight: bold;
+    white-space: pre-wrap;
 
 }
 
