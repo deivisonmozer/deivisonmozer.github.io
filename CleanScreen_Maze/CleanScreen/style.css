@@ -5,16 +5,13 @@
     border: 1px solid;
     border-radius: 50%;
     background-color: rgb(255, 87, 51);
+    /* position: absolute; */
 }
-
-/* .circle{
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50%;
-    background-color: greenyellow;
-} */
 
 input{
     display:flex;
+    position: inherit;
+}
+#mid{
+    /* display:flex; */
 }
