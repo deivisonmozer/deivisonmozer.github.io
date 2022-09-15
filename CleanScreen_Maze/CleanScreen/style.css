@@ -5,13 +5,19 @@
     border: 1px solid;
     border-radius: 50%;
     background-color: rgb(255, 87, 51);
-    /* position: absolute; */
 }
+.circle{
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: rgb(23, 245, 21);
+    position: absolute;    
+} 
 
 input{
     display:flex;
-    position: inherit;
 }
 #mid{
-    /* display:flex; */
+    position: relative;
+    width: 900px;
+    height: 500px;
 }

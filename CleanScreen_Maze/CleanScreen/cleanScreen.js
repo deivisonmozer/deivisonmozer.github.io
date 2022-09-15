@@ -19,11 +19,13 @@ function generateCircle(width, maxGrowth, interval){
     obj.style.width = width + "px";
     obj.style.height = width + "px";
     obj.style.maxWidth = maxGrowth + "px"; 
+    obj.style.top=generateNumber(300,1000)+"px";
+    obj.style.left=generateNumber(0,1000)+"px";
+    obj.className = "circle";
     obj.style.backgroundColor = "rgb("+generateNumber(0, 255)+","+ generateNumber(0, 255) +","+ generateNumber(0, 255) + ")";
     obj.onclick = ()=>{obj.remove()};
     document.getElementById("content").appendChild(obj);
 
-    //need to create a interval for each element
     let timer = setInterval(fIncreaseSizeObj, interval, obj);
 }
 
