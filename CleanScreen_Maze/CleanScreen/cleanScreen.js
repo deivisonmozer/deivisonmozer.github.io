@@ -24,8 +24,10 @@ function generateCircle(width, maxGrowth, interval){
     obj.className = "circle";
     obj.style.backgroundColor = "rgb("+generateNumber(0, 255)+","+ generateNumber(0, 255) +","+ generateNumber(0, 255) + ")";
     obj.onclick = ()=>{obj.remove()};
+    obj.onmouseenter = ()=>{obj.style.opacity=0.5};
+    obj.onmouseout = ()=>{obj.style.opacity=1};
     document.getElementById("content").appendChild(obj);
-
+    
     let timer = setInterval(fIncreaseSizeObj, interval, obj);
 }
 
