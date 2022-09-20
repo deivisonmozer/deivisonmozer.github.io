@@ -90,3 +90,11 @@ describe("ToString", function(){
     });
 });
 
+
+describe("Deposit", function(){
+    let acc = new Account(1, 100);
+    acc.deposit(100);
+    it("Deposit", function() {
+        assert.equal(acc.getBalance(), 100);
+    });
+});

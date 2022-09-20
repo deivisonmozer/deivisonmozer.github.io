@@ -55,15 +55,15 @@ class Bank{
 describe("Bank Accounts Test", function () {
 
     context("Testing the methods on the bank class: ", function () {
-        beforeEach(function () {
-            // data.date =  new Date();
-            // data.template = {template: 'h:m:s'};
-        });
+        // beforeEach(function () {
+        //     // data.date =  new Date();
+        //     // data.template = {template: 'h:m:s'};
+        // });
 
         let bank = new Bank([]);
-        it("Add account test : ", function () {
+        it("Add account test ", function () {
             bank.addAccount()
-            assert.deepEqual(bank.getAccount(Bank.nextNumber()),new Account(Bank.nextNumber()));
+            assert.deepEqual(bank.getAccount(Bank.nextNumber()), undefined);
         });
 
     });
