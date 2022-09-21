@@ -90,7 +90,6 @@ describe("ToString", function(){
     });
 });
 
-
 describe("Deposit", function(){
     let acc = new Account(1, 100);
     acc.deposit(100);
